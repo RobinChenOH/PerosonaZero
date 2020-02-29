@@ -1,0 +1,10 @@
+#pragma once
+class Boss :public Monster {//BossºÃ≥–Monsterµƒ Ù–‘
+public:
+	Boss(MyObjectBuilder *, BossDesign &, int, int);
+};
+
+class MachineGril :public Boss {
+public:
+	MachineGril(int, int);
+};
